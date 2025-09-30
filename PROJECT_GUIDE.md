@@ -1,4 +1,4 @@
-### DeepGrainGrowth Project Guide
+### Project Guide
 
 This guide documents all modules in the project, explains the required execution order for specific analysis scripts, and summarizes each file's role for quick onboarding.
 
@@ -101,3 +101,4 @@ All other analyses in `model_analysis/` can be run independently of each other.
 
 - Paths inside the analysis and runner scripts are examples and should be updated to match your local dataset and result directories.
 - Saved artifacts (e.g., reducer, boundary data, kinetics/distribution joblib files, `.dat` snapshots) are reused across analyses to ensure consistency and avoid recomputation.
+
